@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    >
+    <TextView
+        android:id="@+id/labelKuantitiEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kuantiti"
+        style="@style/viewParent.headerText"/>
+    <EditText
+        android:id="@+id/etKuantitiEdit"
+        android:layout_below="@id/labelKuantitiEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnSaveKuantitiEdit"
+        android:layout_below="@+id/etKuantitiEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:background="@drawable/btnstyle"/>
+</RelativeLayout>
